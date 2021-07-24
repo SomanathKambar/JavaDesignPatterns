@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch House",
+            "request": "launch",
+            "mainClass": "architect.House",
+            "projectName": "BuilderPattern_1b414d4"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        }
+    ]
+}
